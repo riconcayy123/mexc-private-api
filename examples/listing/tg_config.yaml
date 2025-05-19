@@ -1,0 +1,10 @@
+api_id: "tg_api_id"
+api_hash: "tg_api_hash"
+tg_phone: "phone_number"
+
+channels:
+  - from_channel: -1000000000000    # Listing channel   1
+  - from_channel: -1000000000001    # Listing channel   2
+  # ...
+  - from_channel: -1000000000002    # Delisting channel 1
+    # ...
