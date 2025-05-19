@@ -16,8 +16,7 @@
 
 * Telegram channel: [@mexcer_shop](https://t.me/mexcer_shop)
 * Feedbacks: [@mexcer_shop_feedback](https://t.me/mexcer_shop_feedback)
-* Me: [@mexcer_api](https://t.me/mexcer_api)
-
+* Me: [@mexc_api_futures](https://t.me/mexc_api_futures)
 ---
 
 ## 🔍 **Endpoints Overview**  
