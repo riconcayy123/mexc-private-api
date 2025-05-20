@@ -39,7 +39,7 @@ def create_mexc_trader(config_path: str) -> MexcTrader:
     mexc_api = create_mexc_api(config)
     return MexcTrader(mexc_api)
 
-if __name__ == "__main__":
+async def main():
     try:
         # example for 1 account
         # But it's possible to use multiple accounts for listing trading
@@ -52,3 +52,7 @@ if __name__ == "__main__":
         logger.info("-- Bot stopped")
     except Exception as e:
         logger.error(f"-- Error in main cycle: {e}")
+
+if __name__ == "__main__":
+    asyncio.run(main())
+    
