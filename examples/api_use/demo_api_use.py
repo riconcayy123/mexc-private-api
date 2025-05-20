@@ -1,6 +1,7 @@
 import json
 from typing import Dict, Any, Optional, List
 import aiohttp
+import asyncio
 
 from mexc_python.mexcpy.helpers import sleep
 from mexc_python.mexcpy.api import MexcFuturesAPI
@@ -101,6 +102,10 @@ async def demo(api):
     await example2(api)
     await example3(api)
 
-if __name__ == "__main__":
+async def main():
     mexc_api = create_mexc_api("config.js")
     await demo(mexc_api)
+
+if __name__ == "__main__":
+    asyncio.run(main())
+    
